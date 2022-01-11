@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todo_app/models/todo_model.dart';
-
 import '../provider/todo_provider.dart';
 
 class TodoAddnWidget extends StatefulWidget {
@@ -24,8 +22,6 @@ class _TodoAddnWidget extends State<TodoAddnWidget> {
 
   @override
   Widget build(BuildContext context) {
-    Todo todo = context.watch<TodoProvider>().todo;
-
     return Container(
       color: const Color(0xFF6CB4B1),
       child: Padding(
