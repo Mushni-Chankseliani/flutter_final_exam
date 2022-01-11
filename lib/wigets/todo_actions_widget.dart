@@ -15,7 +15,7 @@ class TodoActionsWidget extends StatelessWidget {
     return SingleChildScrollView(
       child: Container(
         color: const Color(0xFF6CB4B1),
-        height: 500,
+        // height: 500,
         child: Padding(
           padding: const EdgeInsets.all(25),
           child: Column(
